@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #201b2c;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #77ffc0;
+}
+
+.left-login img {
+   width: 35vw;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2f2841;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+.card-login > h1 {
+    color: #77ffc0;
+    padding-bottom: 30px;
+    font-weight: 800;
+}
+
+.input-field { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+.input-field > label {
+    color: #ffff;
+    margin: 15px 0;
+    align-items: flex-start;
+    justify-content: center;
+
+
+}
+.input-field > input {
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #514869;
+    box-sizing: border-box;
+}
+
+.btn-login {
+   width: 100%;
+   padding: 16px 0px;
+   margin: 25px 0px;
+   color: #261346;
+   background-color: #00ff88;
+   border: none;
+   outline: none;
+   border-radius: 8px;
+   font-weight: 800;
+   letter-spacing: 4px;
+   cursor: pointer;
+   transition: .4s ease-in-out;
+}
+
+.btn-login:hover {
+    background-color: #17c071;
+    color: #ffff;
+}
+
